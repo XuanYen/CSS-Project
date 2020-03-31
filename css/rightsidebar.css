@@ -1,0 +1,29 @@
+.right .sidebar{
+    list-style-type: none;
+    width: 15vw;
+    height: 90vh;
+    overflow: auto;
+}
+.right .sidebar li{
+    display: flex;
+    align-items: center;
+    color: #666;
+    font-weight: 800;
+    font-size: .8rem;
+    text-transform: uppercase;
+}
+.right .sidebar a{
+    text-transform: capitalize;
+    font-weight: 100;
+    color: #5b5c5e;
+}
+.sidebar .avatar{
+    margin: 10px 10px 10px 0;
+    border-radius: 50%;
+}
+.right .searchbox{
+    display: flex;
+    padding: .5rem 0 ;
+    position: fixed;
+    bottom: 0;   
+}
