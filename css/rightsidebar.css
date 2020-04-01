@@ -22,8 +22,10 @@
     border-radius: 50%;
 }
 .right .searchbox{
+    width: 15vw;
     display: flex;
     padding: .5rem 0 ;
     position: fixed;
-    bottom: 0;   
+    bottom: 0; 
+    right: 0;  
 }
