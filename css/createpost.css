@@ -1,8 +1,5 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-}
 .createpost{
+    margin: 1rem 0;
     width: 45vw;
     border: 1px solid #dddfe2;
     border-radius: 10px;

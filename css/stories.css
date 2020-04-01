@@ -1,0 +1,69 @@
+.stories{
+    margin: 1rem 0;
+    width: 45vw;
+    border: 1px solid #dddfe2;
+    border-radius: 10px;
+    position: relative;
+    padding: 10px 0 10px 10px;
+}
+.title_story{
+    margin-bottom: 1rem;
+}
+.title_story span:first-child{
+    color: #616770;
+    font-weight: 400;
+}
+.title_story span:last-child a{
+    position: absolute;
+    right: 10px;
+    text-decoration: none;
+}
+.title_story span:last-child:hover a{
+    text-decoration: underline;
+}
+.content_stories{
+    display: flex;
+    min-height: 35vh;
+}
+.story{
+    position: relative;
+    margin-right: .5rem;
+    width: 25%;
+    flex-grow: 1;
+    border-radius: 15px;
+    background: url("https://picsum.photos/300/400");
+    background-position: center;
+    background-size: cover;
+}
+.story .text{
+    position: absolute;
+    bottom: .5rem;
+    left: .5rem;
+    color: white;
+    font-weight: 600;
+}
+.overlay{
+    border-radius: 15px;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+    padding: .5rem;
+}
+.circle_avatar{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    vertical-align: middle;
+    background-color: #f5f6f7;
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    color: #1379fb;
+    font-weight: 100;
+}
+.circle_avatar img{
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid #1379fb;
+}
