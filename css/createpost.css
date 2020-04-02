@@ -15,31 +15,31 @@
 .contain{
     padding: 10px;
 }
-.contain .item{
+.contain .act{
     display: flex;
     align-items: center;
     margin-bottom: .5rem;
 }
-.item input{
+.act input{
     border: none;
     height: 100%;
     color: #90949c;
     font-size: .8rem;
 }
-.item .avatar{
+.act .avatar{
     margin: 0 10px 0 0;
     width: 2rem;
 }
 hr{
     background-color: #dddfe2;
 }
-.contain .item:last-child div{
+.contain .act:last-child div{
     background-color: #f5f6f7;
     padding: .5rem;
     border-radius: 40px;
     margin: .5rem .5rem 0 0;
     color: #4b4f56;
 }
-.contain .item:last-child i{
+.contain .act:last-child i{
     margin-right: .5rem;
 }
