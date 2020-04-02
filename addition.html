@@ -11,31 +11,140 @@
             margin: 0;
         }
         .addition{
-            width: 20vw;
+            width: 25vw;
+            margin: 1rem .5rem;
         }
-        .birthday{
+        .card{
             border-radius: 5px;
             border: 1px solid #dddfe2;
+        }
+        .card_title{
+            color: #616770;
+            position: relative;
+            padding: .5rem;
+            border-bottom: 1px solid #dddfe2;
+        }
+        .card_title span:last-child{
+            position: absolute;
+            right: .5rem;
+        }
+        .card_content{
             padding: .5rem;
         }
-        .fa-gift{
-            color: #ca201b;
-            margin-right: .5rem;
-        }
-        .birthday #name{
-            color: #3658a5;
-            font-weight: 600;
-            font-size: 16px;
-        }
-        .birthday span:last-child{
+        .container{
+            display: flex;
+            align-content: center;
             color: #90949c;
-            font-size: 16px;
+            border-bottom: 1px solid #dddfe2;
+            padding: .5rem 0;
         }
-    </style>
+        .container i{
+            color: #000000;
+            margin: .5rem;
+        }
+        .container h5{
+            color: #385898;
+            font-weight: 800;
+            margin: 0 .5rem;
+        }
+        .container .imgpage{
+            width: 80px;
+            
+        }
+        .container .imgpage img{
+            width: 100%;
+            vertical-align: middle;
+        }
+        .container:first-child div{
+            text-align: left;
+        }
+        .container div{
+            flex-grow: 1;
+            text-align: center;
+        }
+        .container:nth-child(3) div, .container:nth-child(5) div{
+            padding: .4rem .2rem;
+            border: 1px solid #dddfe2;
+        }
+        .container #likes{
+            background-color: #dddfe2;
+            color: #4b4f56;
+            font-weight: 600;
+        }
+        .container:nth-child(3) div:hover,.container:nth-child(5) div:hover{
+            background-color: #ebedf0;
+        }
+        .container:nth-child(4) span{
+            font-size: 1.2rem;
+            color: black;
+        }
+        .container:last-child{
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+        .container:nth-child(4) span:hover, p:hover{
+            text-decoration: underline;
+        }
+        .container:nth-child(5) div{
+            color: #4b4f56;
+            background-color: #f5f6f7;
+        }
+        .container:nth-child(5) p:hover{
+            text-decoration: none;
+        }
+        </style>
 </head>
 <body>
     <section class="addition">
-        <div class="birthday"><i class="fas fa-gift"></i><span id="name">Thanh Thanh</span><span>'s birthday is today.</span></div>
+        <div class="card">
+            <div class="card_title">
+                <span>Your Pages</span>
+                <span><i class="fas fa-ellipsis-h"></i></span>
+            </div>
+            <div class="card_content">
+                <div class="container">
+                    <div class="imgpage"><img src="https://picsum.photos/300"></div>
+                    <div>
+                        <h5>Khóa Toán 2018</h5>
+                        <p><i class="fas fa-comments"></i><span>Messages</span></p>
+                        <p><i class="fas fa-globe-americas"></i><span>Notifications</span></p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div>
+                        <i class="fas fa-edit"></i>
+                        <p>Publish</p>    
+                    </div>
+                    <div>
+                        <i class="fas fa-camera"></i>
+                        <p>Photo</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-video"></i>
+                        <p>Live</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-user-plus"></i>
+                        <p>Invite</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div id="likes">Likes</div>
+                    <div>Views</div>
+                    <div>Posts</div>
+                </div>
+                <div class="container">
+                    <div>
+                        <span>100</span>
+                        <p>50 new likes this week</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div><p><i class="fas fa-volume-up"></i>Create promotion</p></div>
+                    <div><p><i class="fas fa-sort-down"></i></p></div>
+                </div>
+            </div>
+        </div>
     </section>
 </body>
 </html>

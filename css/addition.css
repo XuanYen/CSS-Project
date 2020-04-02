@@ -1,8 +1,9 @@
 .addition{
-    width: 20vw;
-    margin: 1rem .5rem;
+    width: 25vw;
+    margin: 1rem;
 }
 .birthday{
+    margin: 0 .5rem .5rem;
     border-radius: 5px;
     border: 1px solid #dddfe2;
     padding: .5rem;
@@ -19,4 +20,83 @@
 .birthday span:last-child{
     color: #90949c;
     font-size: 16px;
+}
+.card{
+    margin: .5rem;
+    border-radius: 5px;
+    border: 1px solid #dddfe2;
+}
+.card_title{
+    color: #616770;
+    position: relative;
+    padding: .5rem;
+    border-bottom: 1px solid #dddfe2;
+}
+.card_title span:last-child{
+    position: absolute;
+    right: .5rem;
+}
+.card_content{
+    padding: .5rem;
+}
+.container{
+    display: flex;
+    align-content: center;
+    color: #90949c;
+    border-bottom: 1px solid #dddfe2;
+    padding: .5rem 0;
+}
+.container i{
+    color: #000000;
+    margin: .5rem;
+}
+.container h5{
+    color: #385898;
+    font-weight: 800;
+    margin: 0 .5rem;
+}
+.container .imgpage{
+    width: 80px;
+    
+}
+.container .imgpage img{
+    width: 100%;
+    vertical-align: middle;
+}
+.container:first-child div{
+    text-align: left;
+}
+.container div{
+    flex-grow: 1;
+    text-align: center;
+}
+.container:nth-child(3) div, .container:nth-child(5) div{
+    padding: .4rem .2rem;
+    border: 1px solid #dddfe2;
+}
+.container #likes{
+    background-color: #dddfe2;
+    color: #4b4f56;
+    font-weight: 600;
+}
+.container:nth-child(3) div:hover,.container:nth-child(5) div:hover{
+    background-color: #ebedf0;
+}
+.container:nth-child(4) span{
+    font-size: 1.2rem;
+    color: black;
+}
+.container:last-child{
+    border-bottom: none;
+    padding-bottom: 0;
+}
+.container:nth-child(4) span:hover, .container p:hover{
+    text-decoration: underline;
+}
+.container:nth-child(5) div{
+    color: #4b4f56;
+    background-color: #f5f6f7;
+}
+.container:nth-child(5) p:hover{
+    text-decoration: none;
 }
