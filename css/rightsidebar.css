@@ -1,10 +1,24 @@
+.right{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 14vw;
+    background-color: #e9ebee;
+    border: 1px solid #dddfe2;
+}
 .right .sidebar{
     list-style-type: none;
-    width: 15vw;
     height: 90vh;
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+}
+.right:hover .sidebar{
     overflow: auto;
 }
 .right .sidebar li{
+    margin: 10px 0;
+    padding: 0 20px;
     display: flex;
     align-items: center;
     color: #666;
@@ -12,20 +26,26 @@
     font-size: .8rem;
     text-transform: uppercase;
 }
+.right .sidebar li:hover{
+    background-color: #f5f2f2;
+}
 .right .sidebar a{
     text-transform: capitalize;
     font-weight: 100;
     color: #5b5c5e;
 }
 .sidebar .avatar{
-    margin: 10px 10px 10px 0;
     border-radius: 50%;
 }
 .right .searchbox{
-    width: 15vw;
     display: flex;
-    padding: .5rem 0 ;
-    position: fixed;
-    bottom: 0; 
-    right: 0;  
+    width: 14vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.right .searchbox input{
+    width: 100%;
+    padding: .5rem .5rem 0;
+    background-color: #f5f2f2;
 }

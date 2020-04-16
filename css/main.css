@@ -6,4 +6,6 @@
 }
 main{
     display: flex;
+    margin-top: 3rem;
+    background-color: #e9ebee;
 }

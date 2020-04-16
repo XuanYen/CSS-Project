@@ -9,6 +9,11 @@
     justify-content: center;
     display: flex;
     padding: 10px 50px;
+    position: fixed;
+    max-height: 1000px;
+    top: 0;
+    width: 100vw;
+    z-index: 10;
 }
 #fb i{
     font-size: 1.7rem;
@@ -18,7 +23,6 @@
 .searchbox{
     display: flex;
     flex-grow: 1;
-    
 }
 #search input{
     height: 100%;

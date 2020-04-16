@@ -1,14 +1,19 @@
+
 a{
     text-decoration: none;
 }
 .sidebar{
+    position: fixed;
+    left: 0;
     list-style-type: none;
+    padding: 0 10px;
     width: 15vw;
+    margin-top: 1rem;
 }
 .sidebar i{
     width: 1vw;
     font-size: 1.3rem;
-    margin: 10px 20px 10px 0;
+    margin: 1rem 20px 10px 0;
     color: #3884fe;
 }
 .sidebar .red_icon{
@@ -18,8 +23,12 @@ a{
     color: #8f959d;
 }
 .sidebar li{
+    padding: 0 10px;
     color: #616770;
     font-weight: 600;
+}
+.sidebar li:hover{
+    background-color: #e9ebee;
 }
 .sidebar a{
     font-weight: 400;

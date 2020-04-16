@@ -4,6 +4,7 @@
     width: 45vw;
     border: 1px solid #dddfe2;
     border-radius: 10px;
+    background-color: #fff;
 }
 .info{
     display: flex;
